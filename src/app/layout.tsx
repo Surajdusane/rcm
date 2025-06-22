@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     title: "RCM | Make Medical Claims Smarter",
     description:
       "RCM demo app for automate financial tasks, stay organized, and make informed decisions effortlessly.",
-    image: "https://rcm-six.vercel.app/og.png",
+    images: [
+      {
+        url: "https://rcm-six.vercel.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RCM | Make Medical Claims Smarter",
+      }
+    ]
     // images: [
     //   {
     //     url: "https://cdn.midday.ai/opengraph-image.jpg",
