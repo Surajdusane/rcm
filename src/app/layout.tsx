@@ -6,7 +6,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://app.midday.ai"),
+  metadataBase: new URL("https://rcm-six.vercel.app"),
   title: "RCM | Make Medical Claims Smarter",
   description:
     "RCM demo app for automate financial tasks, stay organized, and make informed decisions effortlessly.",
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: "RCM | Make Medical Claims Smarter",
     description:
       "RCM demo app for automate financial tasks, stay organized, and make informed decisions effortlessly.",
+    image: "https://rcm-six.vercel.app/og.png",
     // images: [
     //   {
     //     url: "https://cdn.midday.ai/opengraph-image.jpg",
@@ -31,8 +32,8 @@ export const metadata: Metadata = {
     title: "RCM | Make Medical Claims Smarter",
     description:
       "Automate financial tasks, stay organized, and make informed decisions effortlessly.",
-    // url: "https://app.midday.ai",
-    siteName: "RCM",
+    url: "https://rcm-six.vercel.app",
+    siteName: "RCM | Make Medical Claims Smarter",
     // images: [
     //   {
     //     url: "https://cdn.midday.ai/opengraph-image.jpg",
